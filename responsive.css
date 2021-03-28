@@ -1,0 +1,202 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h1{
+    font-size:24px; 
+  }
+
+  .border-about{
+    width: 90px;
+  }
+
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .contact-form{
+    max-width:600px;
+  }
+  
+  .contact-us h1{
+    font-size:24px; 
+  }
+  
+  .border{
+    width: 110px;
+  }
+  
+  .contact-form-text{
+    padding: 15px 30px;
+  }
+  
+  .contact-submit{
+    padding: 10px 15px;
+    width:150px;
+    margin: 15px 0;
+    animation: animasitable 0.5s ease alternate forwards;
+  }
+
+  @keyframes animasitablet {
+    from{
+      padding: 10px 15px;
+      width: 150px;
+      margin: 15px 0;
+    }to{
+      padding: 15px 20px;
+      width: 170px;
+      margin: 10px 0;
+    }
+  }
+
+  @keyframes animasitable {
+    from{
+      padding: 15px 20px;
+      width: 170px;
+      margin: 10px 0;
+    }to{
+      padding: 10px 15px;
+      width: 150px;
+      margin: 15px 0;
+    }
+  }
+
+  .contact-submit:hover{
+    animation: animasitablet 0.5s ease alternate forwards;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+
+  .footer-icons img{
+    padding: 5px 7px;
+  }
+
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+  
+  span.menu-icon {
+    display: block;
+  }
+
+  .line{
+    width: 25px;
+    height: 3px;
+    background: rgb(255, 232, 232);
+    margin: 5px 0;
+    
+  }
+
+  nav{
+    position: relative;
+  }
+
+  .hamburger{
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .heading h1{
+    font-size:18px; 
+  }
+
+  .border-about{
+    width: 70px;
+  }
+
+  nav{
+    display: inlin;
+    width: 10px;
+    height: 10px;
+  }
+
+  .lesson {
+    width: 100%;
+  }
+  
+  .contact-form{
+    max-width:300px;
+  }
+  
+  .contact-us h1{
+    font-size:18px; 
+  }
+  
+  .border{
+    width: 80px;
+  }
+  
+  .contact-form-text{
+    padding: 10px 20px;
+  }
+  
+  .contact-submit{
+    padding: 8px 10px;
+    width:100px;
+    margin: 10px 0;
+    animation: animasihp 0.5s ease alternate forwards;
+  }
+
+  @keyframes animasimobile {
+    from{
+      padding: 8px 10px;
+      width: 100px;
+      margin: 10px 0;
+    }to{
+      padding: 13px 15px;
+      width: 170px;
+      margin: 5px 0;
+    }
+  }
+
+  @keyframes animasihp {
+    from{
+      padding: 13px 15px;
+      width: 120px;
+      margin: 5px 0;
+    }to{
+      padding: 8px 10px;
+      width: 100px;
+      margin: 10px 0;
+    }
+  }
+
+  .contact-submit:hover{
+    animation: animasimobile 0.5s ease alternate forwards;
+  }
+
+  footer p {
+    font-size: 8px;
+    text-align: center;
+  }
+
+  .footer-icons img{
+    padding: 5px 3px;
+    align-items: center;
+  }
+
+}
